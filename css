@@ -10,6 +10,50 @@ body {
   margin: 30px;
 }
 
+#heading:hover {
+  cursor: pointer;
+}
+
 #stuff {
   text-align: center;
+}
+
+#hoverable:hover {
+  cursor: pointer;
+  background-color: white;
+}
+
+#recipe {
+  width: 50%;
+  margin: 20px 20px 0px 0px;
+}
+
+.qty {
+  width: 11%;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+.unit {
+  width: 11%;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+.ingr {
+  width: 57%;
+  margin-bottom: 5px;
+}
+
+.add {
+  color: blue;
+}
+
+.add:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.instr {
+  width: 80%;
 }
