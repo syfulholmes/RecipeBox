@@ -23,8 +23,17 @@ body {
   background-color: white;
 }
 
+.h {
+  background-color: white;
+}
+
+.h:hover {
+  cursor: pointer;
+  background-color: #DFE2DB;
+}
+
 #recipe {
-  width: 50%;
+  width: 70%;
   margin: 20px 20px 0px 0px;
 }
 
@@ -41,7 +50,7 @@ body {
 }
 
 .ingr {
-  width: 57%;
+  width: 72%;
   margin-bottom: 5px;
 }
 
@@ -55,5 +64,51 @@ body {
 }
 
 .instr {
-  width: 80%;
+  width: 95%;
+}
+
+#instr {
+  margin-bottom: 5px;
+}
+
+#saveRecipe {
+  background-color: #FFFF99;
+  font-family: garamond;
+  text-align: center;
+  width: 100px;
+  height: 60px;
+  margin: auto;
+  position: relative;
+  left: 77%;  
+}
+
+#saveRecipe:hover {
+  background-color: yellow;
+  cursor: pointer;
+}
+
+#editRecipe {
+  background-color: #FFFF99;
+  font-family: garamond;
+  text-align: center;
+  width: 100px;
+  height: 60px;
+  margin: auto;
+  position: relative;
+  left: 57%;
+}
+
+#editRecipe:hover {
+  background-color: yellow;
+  cursor: pointer;
+}
+
+#src {
+  width: 55%;
+}
+
+#addRecipeHeader {
+  text-align: left;
+  font-family: 'Oleo Script';
+  padding: 20px 0px 0px 20px;
 }
